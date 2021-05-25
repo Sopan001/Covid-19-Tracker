@@ -9,7 +9,7 @@ export const fetchData = async(country) => {
     console.log("Country",country)
 
     if (country) {
-        if(country == "global"){
+        if(country === "global"){
             changeableUrl = url;
         }
         else{
